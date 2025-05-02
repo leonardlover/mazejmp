@@ -4,7 +4,7 @@
 def parse_input(input_dir):
     """Parses input file located in input_dir.
 
-    Returns a tuple (header, grid, cell_type) where header is a list
+    Returns a list of tuples (header, grid, cell_type) where header is a list
     containing [m, n, sx, sy, tx, ty], grid is a matrix with
     the contents of the maze and cell_type is a matrix indicating
     the type of each cell on the grid ('at-goal', 'start', 'target', None).
