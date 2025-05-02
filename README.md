@@ -3,9 +3,14 @@ A pygame based visualization of a jumping maze solved using uninformed
 search methods.
 
 ## Installation
-First create a virtual environment by running
+First create a virtual environment by running:
 ```bash
 python3 -m venv .venv
+```
+
+Activate it by:
+```bash
+source .venv/bin/activate
 ```
 
 Then, install the required package (`pygame`) directly from the
